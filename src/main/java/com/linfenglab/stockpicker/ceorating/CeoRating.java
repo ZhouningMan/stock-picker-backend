@@ -23,4 +23,17 @@ public class CeoRating {
         this.name = name;
         this.employer = employer;
     }
+
+    //For jackson to works, we need to provide getter.
+    public int getRank() {
+        return rank;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmployer() {
+        return employer;
+    }
 }
